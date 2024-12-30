@@ -1,18 +1,39 @@
 * {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-}
-h1, h2, h3 {
-    color: orangered;
-}
-
-p, ol, ul, a {
-    background-color: hsl(54, 42%, 50%);
-    color: rgb(19, 2, 28);
-    font-weight: bold;
-    font-size: 15px;
+    box-sizing: border-box;
 }
 
 body {
-    background-color: hsl(230, 57%, 35%)
+    background-color: rgb(89, 109, 140);
+    text-align: center;
+}
+
+.container {
+    border: 
+
+}
+a, h1 {
+    color: rgb(204, 214, 93);
+    border: 2px solid rgb(53, 77, 108);
+    text-size: 24px;
+    padding: 10px;
+}
+
+p, .steps{
+    margin: 20px auto;
+    text-align: left;
+    width: 1000px;
+    border: 2px dotted rgb(53, 77, 108);
+}
+
+.ingredients {
+    margin: 20px auto;
+    text-align: left;
+    width: 400px;
+    border: 2px dotted rgb(53, 77, 108);
+}
+
+h2 {
+    color: rgb(149, 162, 10);
+    text-align: center;
 }
