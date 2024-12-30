@@ -1,6 +1,18 @@
 * {
     font-family:'Courier New', Courier, monospace;
+    text-align: center;
 }
-h1 {
-    color: red;
+h1, h2, h3 {
+    color: orangered;
+}
+
+p, ol, ul, a {
+    background-color: hsl(54, 42%, 50%);
+    color: rgb(19, 2, 28);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+body {
+    background-color: hsl(230, 57%, 35%)
 }
